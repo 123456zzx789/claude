@@ -36,6 +36,7 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.btnOpenPage = new System.Windows.Forms.Button();
+            this.webView = new Microsoft.Web.WebView2.WinForms.WebView2();
             ((System.ComponentModel.ISupportInitialize)(this.webView)).BeginInit();
             this.SuspendLayout();
             //
@@ -51,7 +52,6 @@ namespace WindowsFormsApp1
             //
             // webView
             //
-            this.webView = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.webView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                 | System.Windows.Forms.AnchorStyles.Left)
                 | System.Windows.Forms.AnchorStyles.Right)));
