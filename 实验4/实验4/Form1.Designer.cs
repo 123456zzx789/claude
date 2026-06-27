@@ -22,17 +22,14 @@ namespace 实验4
             this.lblConcurrency = new System.Windows.Forms.Label();
             this.grpRoom1 = new System.Windows.Forms.GroupBox();
             this.cmbRoom1 = new System.Windows.Forms.ComboBox();
-            this.lblRoom1FPS = new System.Windows.Forms.Label();
             this.lblRoom1Status = new System.Windows.Forms.Label();
             this.btnRoom1Ctrl = new System.Windows.Forms.Button();
             this.grpRoom2 = new System.Windows.Forms.GroupBox();
             this.cmbRoom2 = new System.Windows.Forms.ComboBox();
-            this.lblRoom2FPS = new System.Windows.Forms.Label();
             this.lblRoom2Status = new System.Windows.Forms.Label();
             this.btnRoom2Ctrl = new System.Windows.Forms.Button();
             this.grpRoom3 = new System.Windows.Forms.GroupBox();
             this.cmbRoom3 = new System.Windows.Forms.ComboBox();
-            this.lblRoom3FPS = new System.Windows.Forms.Label();
             this.lblRoom3Status = new System.Windows.Forms.Label();
             this.btnRoom3Ctrl = new System.Windows.Forms.Button();
             this.pnlRoom1 = new System.Windows.Forms.Panel();
@@ -78,7 +75,6 @@ namespace 实验4
             // grpRoom1
             //
             this.grpRoom1.Controls.Add(this.cmbRoom1);
-            this.grpRoom1.Controls.Add(this.lblRoom1FPS);
             this.grpRoom1.Controls.Add(this.lblRoom1Status);
             this.grpRoom1.Controls.Add(this.btnRoom1Ctrl);
             this.grpRoom1.Controls.Add(this.pnlRoom1);
@@ -95,13 +91,6 @@ namespace 实验4
             this.lblRoom1Status.ForeColor = System.Drawing.Color.Gray;
             this.lblRoom1Status.Location = new System.Drawing.Point(6, 22);
             this.lblRoom1Status.Text = "● 待机中";
-            //
-            // lblRoom1FPS
-            //
-            this.lblRoom1FPS.AutoSize = true;
-            this.lblRoom1FPS.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.lblRoom1FPS.Location = new System.Drawing.Point(80, 22);
-            this.lblRoom1FPS.Text = "";
             //
             // pnlRoom1
             //
@@ -138,7 +127,6 @@ namespace 实验4
             // grpRoom2
             //
             this.grpRoom2.Controls.Add(this.cmbRoom2);
-            this.grpRoom2.Controls.Add(this.lblRoom2FPS);
             this.grpRoom2.Controls.Add(this.lblRoom2Status);
             this.grpRoom2.Controls.Add(this.btnRoom2Ctrl);
             this.grpRoom2.Controls.Add(this.pnlRoom2);
@@ -155,13 +143,6 @@ namespace 实验4
             this.lblRoom2Status.ForeColor = System.Drawing.Color.Gray;
             this.lblRoom2Status.Location = new System.Drawing.Point(6, 22);
             this.lblRoom2Status.Text = "● 待机中";
-            //
-            // lblRoom2FPS
-            //
-            this.lblRoom2FPS.AutoSize = true;
-            this.lblRoom2FPS.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.lblRoom2FPS.Location = new System.Drawing.Point(80, 22);
-            this.lblRoom2FPS.Text = "";
             //
             // pnlRoom2
             //
@@ -198,7 +179,6 @@ namespace 实验4
             // grpRoom3
             //
             this.grpRoom3.Controls.Add(this.cmbRoom3);
-            this.grpRoom3.Controls.Add(this.lblRoom3FPS);
             this.grpRoom3.Controls.Add(this.lblRoom3Status);
             this.grpRoom3.Controls.Add(this.btnRoom3Ctrl);
             this.grpRoom3.Controls.Add(this.pnlRoom3);
@@ -215,13 +195,6 @@ namespace 实验4
             this.lblRoom3Status.ForeColor = System.Drawing.Color.Gray;
             this.lblRoom3Status.Location = new System.Drawing.Point(6, 22);
             this.lblRoom3Status.Text = "● 待机中";
-            //
-            // lblRoom3FPS
-            //
-            this.lblRoom3FPS.AutoSize = true;
-            this.lblRoom3FPS.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.lblRoom3FPS.Location = new System.Drawing.Point(80, 22);
-            this.lblRoom3FPS.Text = "";
             //
             // pnlRoom3
             //
@@ -288,19 +261,16 @@ namespace 实验4
         private System.Windows.Forms.Button btnStopAll;
         private System.Windows.Forms.Label lblConcurrency;
         private System.Windows.Forms.GroupBox grpRoom1;
-        private System.Windows.Forms.Label lblRoom1FPS;
         private System.Windows.Forms.Label lblRoom1Status;
         private System.Windows.Forms.Button btnRoom1Ctrl;
         private System.Windows.Forms.ComboBox cmbRoom1;
         private System.Windows.Forms.Panel pnlRoom1;
         private System.Windows.Forms.GroupBox grpRoom2;
-        private System.Windows.Forms.Label lblRoom2FPS;
         private System.Windows.Forms.Label lblRoom2Status;
         private System.Windows.Forms.Button btnRoom2Ctrl;
         private System.Windows.Forms.ComboBox cmbRoom2;
         private System.Windows.Forms.Panel pnlRoom2;
         private System.Windows.Forms.GroupBox grpRoom3;
-        private System.Windows.Forms.Label lblRoom3FPS;
         private System.Windows.Forms.Label lblRoom3Status;
         private System.Windows.Forms.Button btnRoom3Ctrl;
         private System.Windows.Forms.ComboBox cmbRoom3;
