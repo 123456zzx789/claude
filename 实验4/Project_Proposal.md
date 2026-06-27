@@ -124,4 +124,4 @@ LiveStreamManager.TryStart(id)
 
 ## 7. 项目地址
 
-> 项目源码将于作业完成后提交至 Git 仓库，地址见作业提交时附注。
+> https://github.com/123456zzx789/claude.git
