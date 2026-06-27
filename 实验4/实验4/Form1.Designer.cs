@@ -49,7 +49,7 @@ namespace 实验4
             this.lblConcurrency.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Bold);
             this.lblConcurrency.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblConcurrency.Location = new System.Drawing.Point(12, 12);
-            this.lblConcurrency.Text = "并发状态：空闲 | 活跃直播：0 | 信号量：2/2";
+            this.lblConcurrency.Text = "并发状态：空闲 | 活跃直播：0 | 信号量：3/3";
             //
             // btnStartAll
             //
